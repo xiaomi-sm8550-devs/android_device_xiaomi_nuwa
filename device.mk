@@ -12,7 +12,8 @@ $(call inherit-product, vendor/xiaomi/nuwa/nuwa-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
-    SettingsProviderResNuwa
+    SettingsProviderResNuwa \
+    WifiResNuwa
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
