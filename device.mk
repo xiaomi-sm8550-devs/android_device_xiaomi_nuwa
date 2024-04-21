@@ -22,6 +22,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.nuwa.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nuwa.rc \
 
+# Euicc
+PRODUCT_PACKAGES += \
+    XiaomiEuicc
+
 # Overlay
 PRODUCT_PACKAGES += \
     SettingsProviderResNuwa \
