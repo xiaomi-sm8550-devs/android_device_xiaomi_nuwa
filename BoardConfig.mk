@@ -13,6 +13,9 @@ include vendor/xiaomi/nuwa/BoardConfigVendor.mk
 DEVICE_PATH := device/xiaomi/nuwa
 
 # Kernel
+BOOT_KERNEL_MODULES += \
+	fts_touch_spi.ko
+
 BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 	cs35l41_dlkm.ko \
 	goodix_fod.ko \
