@@ -17,6 +17,9 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 	cs35l41_dlkm.ko \
 	goodix_fod.ko \
 	fts_touch_spi.ko
+
+BOOT_KERNEL_MODULES += \
+	fts_touch_spi.ko
 	
 # Inherit from the proprietary version
 include vendor/xiaomi/nuwa/BoardConfigVendor.mk
