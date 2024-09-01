@@ -19,6 +19,10 @@ PRODUCT_PACKAGES += \
     SettingsProviderResNuwa \
     SystemUIOverlayNuwa
     
+# PowerShare
+PRODUCT_PACKAGES += \
+    vendor.lineage.powershare@1.0-service.default
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.xiaomi.v2
