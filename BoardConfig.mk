@@ -23,6 +23,7 @@ BOOT_KERNEL_MODULES += \
 	
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
 # Inherit from the proprietary version
 include vendor/xiaomi/nuwa/BoardConfigVendor.mk
