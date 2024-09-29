@@ -26,3 +26,4 @@ TARGET_SCREEN_DENSITY := 560
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
