@@ -11,3 +11,9 @@ include device/xiaomi/sm8550-common/BoardConfigCommon.mk
 include vendor/xiaomi/nuwa/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/nuwa
+
+# Kernel
+BOARD_VENDOR_KERNEL_MODULES_LOAD += \
+	cs35l41_dlkm.ko \
+	goodix_fod.ko \
+	fts_touch_spi.ko
