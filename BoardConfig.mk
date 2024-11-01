@@ -21,6 +21,9 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 BOOT_KERNEL_MODULES += \
 	fts_touch_spi.ko
 	
+# Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
+
 # Inherit from the proprietary version
 include vendor/xiaomi/nuwa/BoardConfigVendor.mk
 
