@@ -23,3 +23,6 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 
 # Display
 TARGET_SCREEN_DENSITY := 560
+
+# Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
