@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/nuwa/nuwa-vendor.mk)
 
+# DSP Volume Synchronizer
+PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer
+    
 # IFAAService
 PRODUCT_PACKAGES += \
     IFAAService
