@@ -17,3 +17,6 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 	cs35l41_dlkm.ko \
 	goodix_fod.ko \
 	fts_touch_spi.ko
+
+# Display
+TARGET_SCREEN_DENSITY := 560
