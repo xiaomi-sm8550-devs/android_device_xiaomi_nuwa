@@ -11,6 +11,10 @@ $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.nuwa.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nuwa.rc \
     
+# IFAAService
+PRODUCT_PACKAGES += \
+    IFAAService
+
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureOverlayNuwa \
