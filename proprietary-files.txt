@@ -1211,9 +1211,9 @@ vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermald-devices.conf
 
-# Touch firmware
-odm/firmware/st_fts_m2.ftb
-odm/firmware/stm_fts_production_limits.csv
+# Touchscreen (Firmware) - from thor OS2.0.1.0.VLACNXM
+odm/firmware/st_fts_l1.ftb|f258868a54503e0ad74d8b360a8501274c10ab9d
+odm/firmware/stm_fts_production_limits.csv|437fa1af33da23ef94107f07239435092baf58a8
 
 # Vibrator firmware
 odm/firmware/0_click_P_RTP.bin:vendor/etc/vibrator/effect_0.bin
