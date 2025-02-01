@@ -9,7 +9,11 @@ $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
-    SettingsProviderResNuwa
+    ApertureOverlayNuwa \
+    FrameworkResOverlayNuwa \
+    SettingsOverlayNuwa \
+    SettingsProviderResNuwa \
+    SystemUIOverlayNuwa
     
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
