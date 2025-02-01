@@ -5,6 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsProviderResNuwa",
-    device_specific: true
+    name: "FrameworkResOverlayNuwa",
+    sdk_version: "current",
+    vendor: true,
 }
