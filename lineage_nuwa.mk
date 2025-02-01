@@ -21,3 +21,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 2210132C
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildFingerprint=Xiaomi/nuwa/nuwa:15/AQ3A.240912.001/OS2.0.100.0.VMBCNXM:user/release-keys
