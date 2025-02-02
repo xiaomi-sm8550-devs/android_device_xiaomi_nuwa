@@ -21,6 +21,9 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 BOOT_KERNEL_MODULES += \
 	fts_touch_spi.ko
 	
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := nuwa
+
 # Powershare
 TARGET_POWERSHARE_PATH := /sys/class/qcom-battery/reverse_chg_mode
 
