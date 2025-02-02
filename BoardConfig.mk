@@ -14,6 +14,7 @@ DEVICE_PATH := device/xiaomi/nuwa
 
 # Kernel
 BOOT_KERNEL_MODULES += \
+	wcd_usbss_i2c.ko \
 	fts_touch_spi.ko
 
 BOARD_VENDOR_KERNEL_MODULES_LOAD += \
