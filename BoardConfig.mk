@@ -23,9 +23,6 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += \
 
 BOOT_KERNEL_MODULES += \
 	fts_touch_spi.ko
-	
-# Powershare
-TARGET_POWERSHARE_PATH := /sys/class/qcom-battery/reverse_chg_mode
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
