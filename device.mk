@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureOverlayNuwa \
+    EuiccResNuwa \
     FrameworkResOverlayNuwa \
     SettingsOverlayNuwa \
     SettingsProviderResNuwa \
