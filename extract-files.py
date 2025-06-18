@@ -49,6 +49,7 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libprocessgroup_shim.so'),
     (
         'odm/lib64/libMiPhotoFilter.so',
+        'odm/lib64/libTrueSight.so',
     ): blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_describe')
@@ -56,6 +57,10 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_release')
         .clear_symbol_version('AHardwareBuffer_unlock')
         .clear_symbol_version('AHardwareBuffer_isSupported'),
+    'odm/lib64/libTrueSight.so': blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_lock'),
+    'odm/lib64/libmorpho_ubwc.so': blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_describe'),
     'odm/lib64/hw/camera.xiaomi.so': blob_fixup()
         .add_needed('libprocessgroup_shim.so')
         .replace_needed('libui.so', 'libui-v34.so'),
