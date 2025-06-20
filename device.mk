@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/nuwa/nuwa-vendor.mk)
 
+# Overlay
+PRODUCT_PACKAGES += \
+    SettingsProviderResNuwa
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
