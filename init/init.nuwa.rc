@@ -1,6 +1,3 @@
-on boot
-    chown system system /sys/class/qcom-battery/reverse_chg_mode
-    chmod 0644 /sys/class/qcom-battery/reverse_chg_mode
 # Euicc
 on post-fs && property:ro.boot.hwc=CN
     # Remove euicc on CN Variant
