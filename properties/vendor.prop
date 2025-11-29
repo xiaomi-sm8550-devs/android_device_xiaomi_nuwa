@@ -1,5 +1,2 @@
 # Fingerprint
 persist.vendor.fingerprint.sensor_location=720|2541|123
-
-# Sensors
-ro.vendor.sensors.xiaomi.udfps=true
