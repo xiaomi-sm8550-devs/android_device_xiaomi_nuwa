@@ -61,6 +61,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_lock'),
     'odm/lib64/libmorpho_ubwc.so': blob_fixup()
         .clear_symbol_version('AHardwareBuffer_describe'),
+    'vendor/lib64/libsnpe_config.so': blob_fixup()
+        .add_needed('liblog.so'),
     'odm/lib64/hw/camera.xiaomi.so': blob_fixup()
         .add_needed('libprocessgroup_shim.so')
         .replace_needed('libui.so', 'libui-v34.so'),
