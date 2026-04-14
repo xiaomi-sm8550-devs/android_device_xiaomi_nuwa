@@ -24,10 +24,6 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.nuwa.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nuwa.rc \
-    
-# IFAAService
-PRODUCT_PACKAGES += \
-    IFAAService
 
 # Overlay
 PRODUCT_PACKAGES += \
