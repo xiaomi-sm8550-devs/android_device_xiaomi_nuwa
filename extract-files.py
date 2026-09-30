@@ -38,6 +38,8 @@ blob_fixups: blob_fixups_user_type = {
         .sig_replace('3f d1 00 71', '3f d5 00 71')
         .sig_replace('10 14 c0 f2', '90 14 c0 f2')
         .sig_replace('10 02 e0 f2', '10 06 e0 f2'),
+    'odm/lib64/com.qti.feature2.rt.so': blob_fixup()
+        .sig_replace('d1 12 40 b9', 'f1 82 40 b9'),
     (
         'odm/etc/camera/enhance_motiontuning.xml',
         'odm/etc/camera/night_motiontuning.xml',
