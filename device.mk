@@ -13,6 +13,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_kalama_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml \
     $(LOCAL_PATH)/audio/resourcemanager_kalama_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml
 
+# Camera
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/config/media_profiles_nuwa.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_nuwa.xml
+
 # eUICC
 PRODUCT_PACKAGES += \
     XiaomiEuicc
