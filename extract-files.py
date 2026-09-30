@@ -34,6 +34,10 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'odm/lib64/com.qti.feature2.gs.sm8550.so': blob_fixup()
+        .sig_replace('3f d1 00 71', '3f d5 00 71')
+        .sig_replace('10 14 c0 f2', '90 14 c0 f2')
+        .sig_replace('10 02 e0 f2', '10 06 e0 f2'),
     (
         'odm/etc/camera/enhance_motiontuning.xml',
         'odm/etc/camera/night_motiontuning.xml',
