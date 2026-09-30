@@ -25,6 +25,7 @@ BOOT_KERNEL_MODULES += \
 	fts_touch_spi.ko
 
 # Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
